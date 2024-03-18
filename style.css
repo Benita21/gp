@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: F66546;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 4rem;
+    
+}
+.container{
+    width:50% ;
+    height: 80vh;
+    background-color: gold;
+    /* margin-top: 7rem; */
+    margin: 0 auto;
+    /* padding: 1rem; */
+    /* padding-left:12rem ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+}
+.cards{
+    width: 70%;
+    height: 60%;
+    background-color: purple;
+    /* margin-top: 5rem; */
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 5rem; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    
+}
+.card1{
+    width: 70%;
+    height: 100%;
+    background-color: wheat;
+    padding-left: 4rem ;
+}
+.card2{
+    display: flex;  
+    /* align-items: center; */
+    flex-direction: column;
+    width: 40%;
+    /* justify-content: center; */
+    height: 100%;
+    padding-top: 5rem;
+    /* gap: 10rem; */
+    /* padding-left: 3rem; */
+}
+h1{
+    /* padding-top: 4rem; */
+    padding-left: 1rem;
+    font-size: small;
+    /* padding-bottom: 6rem; */
+}
+.xx{
+    /* padding-top: 2rem; */
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    padding-right: 7rem;
+    gap: 1rem;
+    /* font-size: 2rem; */
+    /* padding-bottom: 7rem; */
+}
+button{
+border-radius: 15px;
+padding: 6px 15px;
+border: none;
+}
+p{
+    /* padding-top: 4rem; */
+    padding-left: 1rem;
+    /* padding-bottom: 13rem; */
+    /* text-align: center; */
+    /* margin-bottom: 5rem; */
+}
+img{
+    width: 100px;
+    height: 100px;
+    /* margin: 0 auto; */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+h2{
+    /* gap: 1rem; */
+    /* border-bottom: 2px solid white; */
+    
+}
+.card-head{
+    margin-left: 10px;
+}
+.pricing{
+    background-color: purple;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    gap: 2rem;
+}
+.pricing-div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+ 
+}
+.pricing-h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/* background-color: aqua; */
+/* border-bottom: 2px solid white; */
+}
+.pricing-h3{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
